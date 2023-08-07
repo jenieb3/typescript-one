@@ -1,7 +1,7 @@
-/*var greeting = 'good morning';
+var greeting = 'good morning';
 greeting = 'good morning';
 console.log(greeting);
-*/
+
 var programmining_languages = ['javascript', 'Typescript', 'C#'];
 var current_language = programmining_languages[1];
 var pay_grade = 10;

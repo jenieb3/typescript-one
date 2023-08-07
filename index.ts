@@ -1,5 +1,5 @@
-/*var greeting = 'good morning';
+var greeting = 'good morning';
 greeting = 'good morning';
 console.log(greeting);
-*/
+
 
