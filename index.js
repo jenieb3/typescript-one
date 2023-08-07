@@ -1,12 +1,16 @@
-var greeting = 'good morning';
+/*var greeting = 'good morning';
 greeting = 'good morning';
 console.log(greeting);
-
-var programmining_languages = ['javascript', 'Typescript', 'C#'];
-var current_language = programmining_languages[1];
-var pay_grade = 10;
-var string = 'n/a';
-if (current_language == 'Typescript' && pay_grade >= 5) {
-    title = 'Senior Developer';
+*/
+// using union |
+function lengthOrValue(myParam) {
+    if (typeof (myParam) === 'number') {
+        return myParam;
+    }
+    if (typeof (myParam) === 'string') {
+        return myParam.length;
+    }
+    return 0;
 }
-console.log(title);
+console.log(lengthOrValue(5));
+console.log(lengthOrValue('some string'));
